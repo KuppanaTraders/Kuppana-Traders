@@ -182,28 +182,46 @@
   </nav>
 
   <!-- Hero -->
-  <header>
+    <!-- Hero -->
+  <header style="
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.55)),
+                  url('https://images.unsplash.com/photo-1597092922300-cd6f9a7a0488?auto=format&fit=crop&w=1600&q=80')
+                  center/cover no-repeat;
+      height: 85vh; display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      color: white; text-align: center; padding: 20px;
+      position: relative; overflow: hidden;">
     <div class="hero-content">
-      <h2>Casuarina Tree Dealers</h2>
-      <p class="subtitle">Your Trusted Partner in Sustainable Timber Trading</p>
-      <p>Trusted Government Approved Timber Traders | UDYAM Reg. No: TN-31-0087934</p>
-      <div class="hero-features">
-        <div class="feature">
-          <i class="fas fa-leaf"></i>
+      <h2 style="font-size: 3rem; margin-bottom: 15px; text-transform: uppercase; font-weight: 700; letter-spacing: 2px;">
+        Casuarina Tree Dealers
+      </h2>
+      <p class="subtitle" style="font-size: 1.4rem; margin-bottom: 20px; font-weight: 300;">
+        Your Trusted Partner in Sustainable Timber Trading
+      </p>
+      <p style="font-size: 1.2rem; max-width: 700px; margin-bottom: 30px; font-weight: 400;">
+        Trusted Government Approved Timber Traders | UDYAM Reg. No: TN-31-0087934
+      </p>
+      <div class="hero-features" style="display: flex; justify-content: center; gap: 30px; margin-bottom: 35px; flex-wrap: wrap;">
+        <div class="feature" style="display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.1); padding: 10px 20px; border-radius: 30px; backdrop-filter: blur(5px);">
+          <i class="fas fa-leaf" style="font-size: 1.5rem; color: #25D366;"></i>
           <span>Sustainable Practices</span>
         </div>
-        <div class="feature">
-          <i class="fas fa-handshake"></i>
+        <div class="feature" style="display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.1); padding: 10px 20px; border-radius: 30px; backdrop-filter: blur(5px);">
+          <i class="fas fa-handshake" style="font-size: 1.5rem; color: #25D366;"></i>
           <span>Fair Trade</span>
         </div>
-        <div class="feature">
-          <i class="fas fa-award"></i>
+        <div class="feature" style="display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.1); padding: 10px 20px; border-radius: 30px; backdrop-filter: blur(5px);">
+          <i class="fas fa-award" style="font-size: 1.5rem; color: #25D366;"></i>
           <span>Government Approved</span>
         </div>
       </div>
-      <a href="#about" class="hero-btn">Discover More</a>
+      <a href="#about" class="hero-btn" style="background: linear-gradient(45deg, #25D366, #128C7E); color: #fff; padding: 15px 35px; border-radius: 50px;
+        text-decoration: none; font-weight: bold; font-size: 1.1rem; transition: all 0.3s ease-in-out; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
+        Discover More
+      </a>
     </div>
   </header>
+
 
   <!-- About -->
   <section id="about">
